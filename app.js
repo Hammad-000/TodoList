@@ -2,18 +2,14 @@
 document.addEventListener( "DOMContentLoaded", () => {
 
     const search    =  document.querySelector(".searchform");
-    // const checkbox = li.querySelector(".checkbox");
-    // const span = li.querySelector("span");
     const taskInput = document.querySelector(".inputarea");
     const addButton = document.querySelector(".addTaskbutton");
     const newTask   = document.querySelector(".tasklist");
     const removeImg = document.querySelector(".bgimg");
     const todoList = document.querySelector(".todocontainer");
 
-    // const addList = document.querySelector("add");
-    // const  = document.querySelector("text");
-    // const text = document.querySelector
 
+  
     const addTask = (event) => {
      event.preventDefault();   
      const taskText = taskInput.value.trim();     
